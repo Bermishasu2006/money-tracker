@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+
+    <h1>👥 Friends</h1>
+
+    <form onsubmit="addFriend(event)">
+        <label>Friend Name</label>
+        <input
+            type="text"
+            id="friendName"
+            placeholder="Enter friend name">
+
+        <button type="submit">
+            Add Friend
+        </button>
+    </form>
+
+    <hr>
+
+    <h2>Friends List</h2>
+
+    <div id="friendsList"></div>
+
+    <br>
+
+    <a href="dashboard.html">
+        ⬅ Back to Dashboard
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
